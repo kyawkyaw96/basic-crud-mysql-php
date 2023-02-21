@@ -19,13 +19,13 @@
 
                 <h3> Total List</h3>
                 <div class=" mb-3 row justify-content-between align-items-center">
-                    <div class=" col-4">Total : <?= $query->num_rows ?></div>
+                    <div class=" col-4">TOTAL : <?= $query->num_rows ?></div>
                     <div class=" col-4">
                         <form action=" " method="get">
                             <div class=" input-group">
                                 <input name="q" value="<?php if (isset($_GET['q'])) : ?> <?= $_GET['q'] ?> <?php endif; ?>" class=" form-control" type="text" id="">
                                 <button class=" btn btn-primary">Search</button>
-                            </div>
+                                </div>
                         </form>
                     </div>
                 </div>
